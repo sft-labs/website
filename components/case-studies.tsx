@@ -192,13 +192,16 @@ export default function CaseStudies() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                    Universal Trusted Credentials (UTC) Solution
+                      Universal Trusted Credentials (UTC) Solution
                     </div>
                     <div className="text-gray-600 text-sm">
-                      The "Universal Trusted Credentials" (UTC) initiative uses
-                      data to help small businesses access financing by creating
-                      a standardised set of credentials that assess their
-                      creditworthiness.
+                      The UTC solution enhances financial access for small
+                      businesses by using authoritative data to develop a
+                      trusted, digital profile of creditworthiness that derisks
+                      financing. This approach makes financing more accessible
+                      and affordable, particularly for MSMEs often hindered by
+                      stringent collateral requirements and a lack of
+                      standardised, verified data.
                     </div>
                     <Link
                       href="https://www.undp.org/sites/g/files/zskgke326/files/2023-11/white_paper_on_universal_trusted_credentials.pdf"

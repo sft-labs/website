@@ -24,7 +24,7 @@ export default function OurSolution() {
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-1 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none">
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-            <svg
+              <svg
                 width="60"
                 height="60"
                 viewBox="0 0 135 135"
@@ -160,11 +160,11 @@ export default function OurSolution() {
                 Trusted Credential Management
               </h4>
               <p className="text-gray-600 text-center">
-                Our platform utilises Universal Trusted Credential (UTC), ERC-3525, and W3C DID/VC for
-                efficient digital identity management and tokenisation. Enhanced
-                with zk-STARKs for security, it features a dual-bus structure
-                that boosts privacy, supports selective disclosure, and improves
-                operational efficiency.
+                Our solution leverages the Universal Trusted Credential (UTC)
+                and W3C DID/VC to create a trusted digital credential platform
+                for managing and tokenising creditworthiness profiles. This
+                platform ensures accessible, enhances affordable, and derisks
+                financing for MSMEs by utilising standardised and verified data.
               </p>
             </div>
 

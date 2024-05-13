@@ -148,7 +148,6 @@ export default function CaseStudies() {
                       </Link>
                       <Link
                         href="/docs/desft-whitepaper.pdf"
-                        target="_ample"
                         className="btn-sm text-gray-900 bg-[#9553ff00] hover:text-[#7943cf] mt-2"
                       >
                         <span className="text-sm">Learn More</span>

@@ -1,1 +1,0 @@
-# Ample FinTech Landing Page

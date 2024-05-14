@@ -80,6 +80,10 @@ export default function CaseStudies() {
                     <div className="flex flex-row gap-3">
                       <Link
                         href="https://demo.amplefintech.com"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                        }}
+                        target="_blank"
                         className="btn-sm text-gray-100 bg-[#9453FF] hover:bg-[#7943cf] mt-2"
                       >
                         <span className="text-sm">Try Demo</span>
@@ -96,6 +100,10 @@ export default function CaseStudies() {
                       </Link>
                       <Link
                         href="https://demo.amplefintech.com"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                        }}
+                        target="_blank"
                         className="btn-sm text-gray-900 bg-[#9553ff00] hover:text-[#7943cf] mt-2"
                       >
                         <span className="text-sm">Learn More</span>
@@ -132,6 +140,10 @@ export default function CaseStudies() {
                     <div className="flex flex-row gap-3">
                       <Link
                         href="https://demo.amplefintech.com"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                        }}
+                        target="_blank"
                         className="btn-sm text-gray-100 bg-[#9453FF] hover:bg-[#7943cf] mt-2"
                       >
                         <span className="text-sm">Try Demo</span>
@@ -148,6 +160,10 @@ export default function CaseStudies() {
                       </Link>
                       <Link
                         href="/docs/desft-whitepaper.pdf"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                        }}
+                        target="_blank"
                         className="btn-sm text-gray-900 bg-[#9553ff00] hover:text-[#7943cf] mt-2"
                       >
                         <span className="text-sm">Learn More</span>
@@ -205,6 +221,10 @@ export default function CaseStudies() {
                     </div>
                     <Link
                       href="https://www.undp.org/sites/g/files/zskgke326/files/2023-11/white_paper_on_universal_trusted_credentials.pdf"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                      }}
+                      target="_blank"
                       className="btn-sm text-gray-900 bg-[#9553ff00] hover:text-[#7943cf] mt-2"
                     >
                       <span className="text-sm">Learn More</span>

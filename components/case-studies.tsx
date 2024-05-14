@@ -99,7 +99,7 @@ export default function CaseStudies() {
                         </svg>
                       </Link>
                       <Link
-                        href="https://demo.amplefintech.com"
+                        href="/docs/desft-whitepaper.pdf"
                         onClick={(e) => {
                           e.stopPropagation();
                         }}
@@ -159,7 +159,7 @@ export default function CaseStudies() {
                         </svg>
                       </Link>
                       <Link
-                        href="/docs/desft-whitepaper.pdf"
+                        href="https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/pbm/pbm-technical-whitepaper.pdf"
                         onClick={(e) => {
                           e.stopPropagation();
                         }}

@@ -37,8 +37,10 @@ export default function CaseStudies() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Case Studies</h1>
             <p className="text-xl text-gray-600">
-              Discover our innovative case studies in digital credentials,
-              programmable payment, and tokenised supply chain finance.
+              Explore our successful collaborations with MAS and BOG in
+              promoting inclusive finance. We enhance global protocols like PBM
+              and UTC using blockchain, smart contracts, ERC-3525, and W3C
+              VC/DID technologies to optimise and advance financial solutions.
             </p>
           </div>
 
@@ -67,15 +69,15 @@ export default function CaseStudies() {
                       Project DESFT
                     </div>
                     <div className="text-gray-600 text-sm">
-                      Project DESFT is a new distributed ledger technology
-                      solution, arising from the ongoing GIFE work, that is
-                      driven by financial institutions and FinTechs from
-                      Singapore and Ghana which has completed a live and novel
-                      approach to combine CBDC from Ghana, stablecoin from
-                      Singapore, universal trusted credentials and trade tokens
-                      within a purpose bound money protocol for a live cross
-                      border trade. The DESFT team views this innovative
-                      approach will advance inclusive finance.
+                      Project DESFT is a new distributed ledger
+                      technology solution, arising from the ongoing GIFE work,
+                      supported by MAS and BOG, that is driven by financial
+                      institutions and FinTechs from Singapore and Ghana which
+                      has completed a live and novel approach to combine CBDC
+                      from Ghana, stablecoin from Singapore, UTCs and trade
+                      tokens within a PBM protocol for a live cross border
+                      trade. The DESFT team views this innovative approach will
+                      advance inclusive finance.
                     </div>
                     <div className="flex flex-row gap-3">
                       <Link
@@ -125,7 +127,7 @@ export default function CaseStudies() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Purpose Bound Money (PBM)
+                      Purpose Bound Money (PBM) Solution
                     </div>
                     <div className="text-gray-600 text-sm">
                       PBM is a common purpose protocol designed to work with
@@ -327,7 +329,7 @@ export default function CaseStudies() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <div className="relative flex">
+                    <div className="relative flex md:mt-5">
                       <Image
                         className="md:max-w-none mx-auto rounded"
                         src={UTC}

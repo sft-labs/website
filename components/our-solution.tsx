@@ -14,9 +14,11 @@ export default function OurSolution() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Our Solutions</h2>
             <p className="text-xl text-gray-600">
-              Discover our advanced financial solutions, designed for seamless
-              digital transactions, secure credential management, and robust
-              blockchain infrastructure.
+              Discover our advanced financial solutions, specifically designed
+              for MSMEs in developing countries, featuring trusted credential
+              management for inclusive financial access, privacy and
+              programmable payment solutions for affordability, and tokenised
+              supply chain finance for faster liquidity.
             </p>
           </div>
 
@@ -72,11 +74,12 @@ export default function OurSolution() {
                 Programmable Payment
               </h4>
               <p className="text-gray-600 text-center">
-                Our solutions transform digital payments using the Purpose Bound
-                Money (PBM) protocol and ERC-3525, automating secure
-                transactions and enhancing escrow for broader adoption. Features
-                like transferability and advanced contract logic streamline
-                international trade, especially benefiting MSMEs.
+                Our solutions revolutionise programmable digital currencies and
+                payments with the Purpose Bound Money (PBM) protocol and
+                ERC-3525 standard, automating secure transactions and enhancing
+                escrow for broader adoption. Programmability streamlines
+                international trade and protects the rights and interests of
+                MSMEs.
               </p>
             </div>
 
@@ -123,11 +126,11 @@ export default function OurSolution() {
                 Compliance and Privacy Payment
               </h4>
               <p className="text-gray-600 text-center">
-                Our ZKP-based zkCoprocessor solution offers private, efficient
-                payment processing with digital invoices and receipts,
-                maintaining compliance. Utilising STARK technology for fast
-                proof generation and featuring secure zkWallet storage, it
-                supports discreet transactions across EVM and UTXO models.
+                Our ZKP-based solution offers private payments, leveraging the
+                latest STARK technology for fast proof generation, reducing
+                costs and maximising efficiency. With secure zkWallet storage
+                and digital invoices and receipts, the solution ensures
+                regulatory compliance from the start.
               </p>
             </div>
 
@@ -161,7 +164,7 @@ export default function OurSolution() {
               </h4>
               <p className="text-gray-600 text-center">
                 Our solution leverages the Universal Trusted Credential (UTC)
-                and W3C DID/VC to create a trusted digital credential platform
+                and W3C VC/DID to create a trusted digital credential platform
                 for managing and tokenising creditworthiness profiles. This
                 platform ensures accessible, enhances affordable, and derisks
                 financing for MSMEs by utilising standardised and verified data.
@@ -211,11 +214,11 @@ export default function OurSolution() {
                 Supply Chain Finance
               </h4>
               <p className="text-gray-600 text-center">
-                Our solution leverages the ERC-3525 standard in smart contracts
-                to enhance the tokenization and structuring of financial
-                instruments like invoices. It supports operations like splitting
-                and combining, improving risk management and liquidity, and
-                making supply chain finance more accessible for MSMEs.
+                Our solution leverages the ERC-3525 standard to facilitate the
+                tokenisation, securitisation, and structuring of financial
+                instruments, and processes like pooling and tranching. This
+                programmability caters multiple needs, from suppliers seeking
+                quick liquidity to investors seeking various risk assets.
               </p>
             </div>
           </div>

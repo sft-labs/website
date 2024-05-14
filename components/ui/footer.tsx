@@ -15,7 +15,15 @@ export default function Footer() {
             <div className="mb-2">
               <Logo />
             </div>
-            <div className="text-sm">Contact Us: <span className="text-sm underline">service@amplefintech.com</span></div>
+            <div className="text-sm">
+              Contact Us:{" "}
+              <a
+                href="mailto:service@amplefintech.com"
+                className="text-sm underline"
+              >
+                service@amplefintech.com
+              </a>
+            </div>
           </div>
           {/* 2nd block */}
           {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
@@ -108,25 +116,30 @@ export default function Footer() {
           </div> */}
         </div>
         <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
-            {/* Copyrights note */}
-            <div className="text-sm text-gray-600 mr-4">
-              &copy; Ample.com All rights reserved.
-            </div>
-            <div className="flex flex-row gap-4">
-              <button
-                className="bg-white hover:bg-grey-200 rounded-full shadow fill-current h-12 w-12 flex justify-center items-center"
-                onClick={() => { window.location.href = 'https://twitter.com/AmpleFintech'; }}
-              >
-                <Image src={prime_twitter} alt={""} height={20} />
-              </button>
-              <button
-                className="bg-white hover:bg-grey-200 rounded-full shadow fill-current h-12 w-12 flex justify-center items-center"
-                onClick={() => { window.location.href = 'https://www.linkedin.com/company/ample-fintech/about/' }}
-              >
-                <Image src={jam_linkedin} alt={""} height={22} />
-              </button>
-            </div>
+          {/* Copyrights note */}
+          <div className="text-sm text-gray-600 mr-4">
+            &copy; 2023-2024 Ample FinTech Pte. Ltd. All rights reserved.
           </div>
+          <div className="flex flex-row gap-4">
+            <button
+              className="bg-white hover:bg-grey-200 rounded-full shadow fill-current h-12 w-12 flex justify-center items-center"
+              onClick={() => {
+                window.location.href = "https://twitter.com/AmpleFintech";
+              }}
+            >
+              <Image src={prime_twitter} alt={""} height={20} />
+            </button>
+            <button
+              className="bg-white hover:bg-grey-200 rounded-full shadow fill-current h-12 w-12 flex justify-center items-center"
+              onClick={() => {
+                window.location.href =
+                  "https://www.linkedin.com/company/ample-fintech/about/";
+              }}
+            >
+              <Image src={jam_linkedin} alt={""} height={22} />
+            </button>
+          </div>
+        </div>
 
         {/* Bottom area */}
         {/* <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200"> */}

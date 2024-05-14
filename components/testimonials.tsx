@@ -46,58 +46,70 @@ export default function Testimonials() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">Partner With</h2>
+            <h2 className="h2">Partner With</h2>
           </div>
 
           {/* Items */}
-          <div className="max-w-sm md:max-w-4xl mx-auto flex justify-center gap-5 md:gap-20">
+          <div className="max-w-sm md:max-w-4xl mx-auto flex justify-center gap-5 md:gap-16">
             {/* Item */}
-            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
+            <a
+              href="https://sftlabs.io/"
+              className="flex items-center justify-center py-2 col-span-2 md:col-auto"
+            >
               <Image
                 className="md:max-w-none mx-auto rounded"
                 src={SFTLabsLogo}
                 width={73}
                 height={53}
-                alt="Features bg"
+                alt="SFTLabsLogo"
               />
-            </div>
+            </a>
 
             {/* Item */}
-            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
+            <a
+              href="https://solv.finance/"
+              className="flex items-center justify-center py-2 col-span-2 md:col-auto"
+            >
               <Image
                 className="md:max-w-none mx-auto rounded"
                 src={SolvLogo}
                 width={111}
                 height={457}
-                alt="Features bg"
+                alt="SolvLogo"
               />
-            </div>
+            </a>
 
             {/* Item */}
-            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
+            <a
+              href="https://unizon.au/"
+              className="flex items-center justify-center py-2 col-span-2 md:col-auto"
+            >
               <Image
                 className="md:max-w-none mx-auto rounded"
                 src={UnizonLogo}
                 width={126}
                 height={457}
-                alt="Features bg"
+                alt="UnizonLogo"
               />
-            </div>
+            </a>
 
             {/* Item */}
-            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
+            <a
+              href="https://zcloak.network/"
+              className="flex items-center justify-center py-2 col-span-2 md:col-auto"
+            >
               <Image
                 className="md:max-w-none mx-auto rounded"
                 src={zCloakLogo}
                 width={270}
                 height={457}
-                alt="Features bg"
+                alt="zCloakLogo"
               />
-            </div>
+            </a>
           </div>
 
           {/* Testimonials */}
-          <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
+          {/* <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out"> */}
             {/* <div className="relative flex items-start border-2 border-gray-200 rounded bg-white"> */}
 
             {/* Testimonial */}
@@ -118,7 +130,7 @@ export default function Testimonials() {
               </div> */}
 
             {/* </div> */}
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </section>

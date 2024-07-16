@@ -3,6 +3,7 @@ import Logo from "./logo";
 import Image from "next/image";
 import prime_twitter from "@/public/prime_twitter.svg";
 import jam_linkedin from "@/public/jam_linkedin.svg";
+import medium from "@/public/medium.svg";
 
 export default function Footer() {
   return (
@@ -137,6 +138,15 @@ export default function Footer() {
               }}
             >
               <Image src={jam_linkedin} alt={""} height={22} />
+            </button>
+            <button
+              className="bg-white hover:bg-grey-200 rounded-full shadow fill-current h-12 w-12 flex justify-center items-center"
+              onClick={() => {
+                window.location.href =
+                  "https://amplefintech.medium.com/";
+              }}
+            >
+              <Image src={medium} alt={""} height={30} />
             </button>
           </div>
         </div>

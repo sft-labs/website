@@ -1,3 +1,7 @@
+"use client"
+
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section className="relative h-[600px]">
@@ -41,11 +45,11 @@ export default function Hero() {
               className="text-4xl md:text-[60px] font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
-              Shaping the Next-Gen of{" "}
+              Shaping the next-Gen of{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#9453FF] to-[#39046b]">
                 Financial Infrastructure{" "}
               </span>
-              with Blockchain
+              with Tokenisation
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
@@ -54,7 +58,7 @@ export default function Hero() {
                 data-aos-delay="150"
               >
                 We foresee the unprecedented transformation of the human
-                monetary system. As the innovation leader in blockchain and
+                monetary system. As the innovation leader in Tokenisation and
                 FinTech, we are dedicated to driving the inclusiveness and
                 development of next-generation global financial systems.
               </p>
@@ -63,9 +67,26 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
               >
-                {/* <div>
-                  <a className="btn text-white bg-[#9453FF] hover:bg-[#7943cf] w-full mb-4 sm:w-auto sm:mb-0" href="/">Learn More</a>
-                </div> */}
+                <Link
+                  href="https://forms.gle/fBfZchQnS7tjPncQ7"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                  }}
+                  target="_blank"
+                  className="px-5 py-3 btn-sm text-gray-100 bg-[#9453FF] hover:bg-[#7943cf] mt-2"
+                >
+                  <span className="text-lg">Book Demo</span>
+                  <svg
+                    className="w-3 h-3 fill-current text-gray-100 shrink-0 ml-2 -mr-1"
+                    viewBox="0 0 12 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
+                      fillRule="nonzero"
+                    />
+                  </svg>
+                </Link>
                 {/* <div>
                   <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="/">Learn More</a>
                 </div> */}

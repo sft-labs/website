@@ -5,8 +5,8 @@ import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import PBM from "../public/PBM.svg";
 import UTC from "../public/UTC.svg";
-import DESFT from "../public/DESFT.svg";
-import Link from "next/link";
+import SupplyChain from "../public/supplychain.svg";
+import PrivactPayment from "../public/PrivacyPayment.svg";
 
 export default function CaseStudies() {
   const [tab, setTab] = useState<number>(1);
@@ -25,22 +25,30 @@ export default function CaseStudies() {
   return (
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div
-        className="absolute inset-0 bg-gray-100 pointer-events-none mb-[-30px]"
+      {/* <div
+        className="absolute inset-0 bg-gray-100 pointer-events-none mb-[-50px]"
         aria-hidden="true"
       ></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
+      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div> */}
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Case Studies</h1>
+          <div className="max-w-[950px] mx-auto text-center pb-12 md:pb-16">
+            {/* <h1 className="h2 mb-4">Case Studies</h1>
             <p className="text-xl text-gray-600">
               Explore our successful collaborations with MAS and BOG in
               promoting inclusive finance. We enhance global protocols like PBM
               and UTC using blockchain, smart contracts, ERC-3525, and W3C
               VC/DID technologies to optimise and advance financial solutions.
+            </p> */}
+            <h1 className="h2 mb-4">Our Solutions</h1>
+            <p className="text-lg text-gray-600">
+              Discover our advanced financial solutions, specifically designed
+              for MSMEs in developing countries, featuring trusted credential
+              management for inclusive financial access, privacy and
+              programmable payment solutions for affordability, and tokenised
+              supply chain finance for faster liquidity.
             </p>
           </div>
 
@@ -56,39 +64,28 @@ export default function CaseStudies() {
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 1
                       ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      : "bg-[#f0f0f0] border border-[#e1e1e1]"
                   }`}
                   href="#0"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setTab(1);
-                  }}
+                  onMouseEnter={() => setTab(1)}
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Project DESFT
+                    Programmable Payment
                     </div>
                     <div className="text-gray-600 text-sm">
-                      Project DESFT is a new distributed ledger
-                      technology solution, arising from the ongoing GIFE work,
-                      supported by MAS and BOG, that is driven by financial
-                      institutions and FinTechs from Singapore and Ghana which
-                      has completed a live and novel approach to combine CBDC
-                      from Ghana, stablecoin from Singapore, UTCs and trade
-                      tokens within a PBM protocol for a live cross border
-                      trade. The DESFT team views this innovative approach will
-                      advance inclusive finance.
+                    Our solutions revolutionise programmable digital currencies and payments with the Purpose Bound Money (PBM) protocol and ERC-3525 standard, automating secure transactions and enhancing escrow for broader adoption, ensuring funds are utilised as intended through conditional payment setups. Its programmability allows businesses and individuals to create programmable payment logic on their own without relying on professional third parties. Ample FinTech implemented the PBM3525 technology for broader use cases, including Letters of Credit.
                     </div>
-                    <div className="flex flex-row gap-3">
+                    {/* <div className="flex flex-row gap-3">
                       <Link
-                        href="https://demo.amplefintech.com"
+                        href="https://forms.gle/fBfZchQnS7tjPncQ7"
                         onClick={(e) => {
                           e.stopPropagation();
                         }}
                         target="_blank"
                         className="btn-sm text-gray-100 bg-[#9453FF] hover:bg-[#7943cf] mt-2"
                       >
-                        <span className="text-sm">Try Demo</span>
+                        <span className="text-sm">Book Demo</span>
                         <svg
                           className="w-3 h-3 fill-current text-gray-100 shrink-0 ml-2 -mr-1"
                           viewBox="0 0 12 12"
@@ -110,45 +107,36 @@ export default function CaseStudies() {
                       >
                         <span className="text-sm">Learn More</span>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </a>
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 2
                       ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      : "bg-[#f0f0f0] border border-[#e1e1e1]"
                   }`}
                   href="#0"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setTab(2);
-                  }}
+                  onMouseEnter={() => setTab(2)}
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Purpose Bound Money (PBM) Solution
+                    Tokenised invoice
                     </div>
                     <div className="text-gray-600 text-sm">
-                      PBM is a common purpose protocol designed to work with
-                      different ledger technology and forms of money. It
-                      provides a novel model to enhance transactional integrity,
-                      streamline process, and ensure funds are utilised as
-                      intended through conditional payment setups. Ample FinTech
-                      implemented the PBM solution using ERC-3525 standard and
-                      smart contracts for broader use cases, including Letters
-                      of Credit.
+                    Our solution utilizes the ERC-3525 standard to help both parties in a trade generate tokenized invoices after reaching an agreement. This process creates tokens representing accounts receivable and payable, embodying their respective rights. These tokens are programmable, allowing for splitting, combining, and structuring, as well as enabling automatic cash flow distribution. This programmability meets various needs, from suppliers seeking financing liquidity to investors looking for diverse risk assets.
+
                     </div>
-                    <div className="flex flex-row gap-3">
+                    {/* <div className="flex flex-row gap-3">
                       <Link
-                        href="https://demo.amplefintech.com"
+                        href="https://forms.gle/fBfZchQnS7tjPncQ7"
                         onClick={(e) => {
                           e.stopPropagation();
                         }}
                         target="_blank"
                         className="btn-sm text-gray-100 bg-[#9453FF] hover:bg-[#7943cf] mt-2"
                       >
-                        <span className="text-sm">Try Demo</span>
+                        <span className="text-sm">Book Demo</span>
                         <svg
                           className="w-3 h-3 fill-current text-gray-100 shrink-0 ml-2 -mr-1"
                           viewBox="0 0 12 12"
@@ -169,7 +157,7 @@ export default function CaseStudies() {
                         className="btn-sm text-gray-900 bg-[#9553ff00] hover:text-[#7943cf] mt-2"
                       >
                         <span className="text-sm">Learn More</span>
-                        {/* <svg
+                        <svg
                         className="w-3 h-3 fill-current text-gray-900 shrink-0 ml-2 -mr-1"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
@@ -178,9 +166,9 @@ export default function CaseStudies() {
                           d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
                           fillRule="nonzero"
                         />
-                      </svg> */}
+                      </svg>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                   {/* <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg
@@ -200,28 +188,20 @@ export default function CaseStudies() {
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 3
                       ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      : "bg-[#f0f0f0] border border-[#e1e1e1]"
                   }`}
                   href="#0"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setTab(3);
-                  }}
+                  onMouseEnter={() => setTab(3)}
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Universal Trusted Credentials (UTC) Solution
+                    Tokenised Trusted Credentials Management Platform
                     </div>
                     <div className="text-gray-600 text-sm">
-                      The UTC solution enhances financial access for small
-                      businesses by using authoritative data to develop a
-                      trusted, digital profile of creditworthiness that derisks
-                      financing. This approach makes financing more accessible
-                      and affordable, particularly for MSMEs often hindered by
-                      stringent collateral requirements and a lack of
-                      standardised, verified data.
+                    Our solution leverages the Universal Trusted Credential (UTC) and W3C VC/DID to create a trusted digital credential platform for managing and tokenising creditworthiness profiles. This platform ensures accessible, enhances affordable, and derisks financing for MSMEs by utilising standardised and verified data.
+
                     </div>
-                    <Link
+                    {/* <Link
                       href="https://www.undp.org/sites/g/files/zskgke326/files/2023-11/white_paper_on_universal_trusted_credentials.pdf"
                       onClick={(e) => {
                         e.stopPropagation();
@@ -230,7 +210,7 @@ export default function CaseStudies() {
                       className="btn-sm text-gray-900 bg-[#9553ff00] hover:text-[#7943cf] mt-2"
                     >
                       <span className="text-sm">Learn More</span>
-                      {/* <svg
+                      <svg
                         className="w-3 h-3 fill-current text-gray-900 shrink-0 ml-2 -mr-1"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
@@ -239,8 +219,8 @@ export default function CaseStudies() {
                           d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
                           fillRule="nonzero"
                         />
-                      </svg> */}
-                    </Link>
+                      </svg>
+                    </Link> */}
                   </div>
                   {/* <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg
@@ -255,6 +235,60 @@ export default function CaseStudies() {
                       />
                     </svg>
                   </div> */}
+                </a>
+                <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
+                    tab !== 4
+                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
+                      : "bg-[#f0f0f0] border border-[#e1e1e1]"
+                  }`}
+                  href="#0"
+                  onMouseEnter={() => setTab(4)}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">
+                      Compliance and Privacy Payment
+                    </div>
+                    <div className="text-gray-600 text-sm">
+                      Our ZKP-based solution offers private payments, leveraging
+                      the latest STARK technology for fast proof generation,
+                      reducing costs and maximising efficiency. With secure
+                      zkWallet storage and digital invoices and receipts, the
+                      solution ensures regulatory compliance from the start.
+                    </div>
+                    {/* <div className="flex flex-row gap-3">
+                      <Link
+                        href="https://forms.gle/fBfZchQnS7tjPncQ7"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                        }}
+                        target="_blank"
+                        className="btn-sm text-gray-100 bg-[#9453FF] hover:bg-[#7943cf] mt-2"
+                      >
+                        <span className="text-sm">Book Demo</span>
+                        <svg
+                          className="w-3 h-3 fill-current text-gray-100 shrink-0 ml-2 -mr-1"
+                          viewBox="0 0 12 12"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
+                            fillRule="nonzero"
+                          />
+                        </svg>
+                      </Link>
+                      <Link
+                        href="/docs/desft-whitepaper.pdf"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                        }}
+                        target="_blank"
+                        className="btn-sm text-gray-900 bg-[#9553ff00] hover:text-[#7943cf] mt-2"
+                      >
+                        <span className="text-sm">Learn More</span>
+                      </Link>
+                    </div> */}
+                  </div>
                 </a>
               </div>
             </div>
@@ -281,10 +315,10 @@ export default function CaseStudies() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <div className="relative flex md:mt-24">
+                    <div className="relative flex md:mt-10">
                       <Image
                         className="md:max-w-none mx-auto rounded"
-                        src={DESFT}
+                        src={PBM}
                         width={600}
                         height={457}
                         alt="Features bg"
@@ -305,10 +339,10 @@ export default function CaseStudies() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <div className="relative flex md:mt-32">
+                    <div className="relative flex md:mt-20">
                       <Image
                         className="md:max-w-none mx-auto rounded"
-                        src={PBM}
+                        src={SupplyChain}
                         width={600}
                         height={457}
                         alt="Features bg"
@@ -329,11 +363,34 @@ export default function CaseStudies() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <div className="relative flex md:mt-5">
+                    <div className="relative flex md:mt-32">
                       <Image
                         className="md:max-w-none mx-auto rounded"
                         src={UTC}
-                        width={540}
+                        width={520}
+                        height={457}
+                        alt="Features bg"
+                      />
+                    </div>
+                  </Transition>
+                  <Transition
+                    show={tab === 4}
+                    appear={true}
+                    className="w-full"
+                    enter="transition ease-in-out duration-700 transform order-first"
+                    enterFrom="opacity-0 translate-y-16"
+                    enterTo="opacity-100 translate-y-0"
+                    leave="transition ease-in-out duration-300 transform absolute"
+                    leaveFrom="opacity-100 translate-y-0"
+                    leaveTo="opacity-0 -translate-y-16"
+                    beforeEnter={() => heightFix()}
+                    unmount={false}
+                  >
+                    <div className="relative flex md:mt-44">
+                      <Image
+                        className="md:max-w-none mx-auto rounded"
+                        src={PrivactPayment}
+                        width={470}
                         height={457}
                         alt="Features bg"
                       />

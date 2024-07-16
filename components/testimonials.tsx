@@ -146,8 +146,8 @@ export default function Testimonials() {
                   />
                 </div>
                 <blockquote className="text-xl font-medium my-6">
-                  “ Ample's mission is empowering digital economy with
-                  innovative tokenisation solutions. “
+                  " Ample's mission is empowering digital economy with
+                  innovative tokenisation solutions. "
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">
                   Haisheng Zhang

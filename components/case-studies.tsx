@@ -24,13 +24,6 @@ export default function CaseStudies() {
 
   return (
     <section className="relative">
-      {/* Section background (needs .relative class on parent and next sibling elements) */}
-      {/* <div
-        className="absolute inset-0 bg-gray-100 pointer-events-none mb-[-50px]"
-        aria-hidden="true"
-      ></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div> */}
-
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
           {/* Section header */}
@@ -66,48 +59,24 @@ export default function CaseStudies() {
                       ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
                       : "bg-[#f0f0f0] border border-[#e1e1e1]"
                   }`}
-                  href="#0"
                   onMouseEnter={() => setTab(1)}
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                    Programmable Payment
+                      Programmable Payment
                     </div>
                     <div className="text-gray-600 text-sm">
-                    Our solutions revolutionise programmable digital currencies and payments with the Purpose Bound Money (PBM) protocol and ERC-3525 standard, automating secure transactions and enhancing escrow for broader adoption, ensuring funds are utilised as intended through conditional payment setups. Its programmability allows businesses and individuals to create programmable payment logic on their own without relying on professional third parties. Ample FinTech implemented the PBM3525 technology for broader use cases, including Letters of Credit.
+                      Our solutions revolutionise programmable digital
+                      currencies and payments with the Purpose Bound Money (PBM)
+                      protocol and ERC-3525 standard, automating secure
+                      transactions and enhancing escrow for broader adoption,
+                      ensuring funds are utilised as intended through
+                      conditional payment setups. Its programmability allows
+                      businesses and individuals to create programmable payment
+                      logic on their own without relying on professional third
+                      parties. Ample FinTech implemented the PBM3525 technology
+                      for broader use cases, including Letters of Credit.
                     </div>
-                    {/* <div className="flex flex-row gap-3">
-                      <Link
-                        href="https://forms.gle/fBfZchQnS7tjPncQ7"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                        }}
-                        target="_blank"
-                        className="btn-sm text-gray-100 bg-[#9453FF] hover:bg-[#7943cf] mt-2"
-                      >
-                        <span className="text-sm">Book Demo</span>
-                        <svg
-                          className="w-3 h-3 fill-current text-gray-100 shrink-0 ml-2 -mr-1"
-                          viewBox="0 0 12 12"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                            fillRule="nonzero"
-                          />
-                        </svg>
-                      </Link>
-                      <Link
-                        href="/docs/desft-whitepaper.pdf"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                        }}
-                        target="_blank"
-                        className="btn-sm text-gray-900 bg-[#9553ff00] hover:text-[#7943cf] mt-2"
-                      >
-                        <span className="text-sm">Learn More</span>
-                      </Link>
-                    </div> */}
                   </div>
                 </a>
                 <a
@@ -116,73 +85,25 @@ export default function CaseStudies() {
                       ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
                       : "bg-[#f0f0f0] border border-[#e1e1e1]"
                   }`}
-                  href="#0"
                   onMouseEnter={() => setTab(2)}
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                    Tokenised invoice
+                      Tokenised invoice
                     </div>
                     <div className="text-gray-600 text-sm">
-                    Our solution utilizes the ERC-3525 standard to help both parties in a trade generate tokenized invoices after reaching an agreement. This process creates tokens representing accounts receivable and payable, embodying their respective rights. These tokens are programmable, allowing for splitting, combining, and structuring, as well as enabling automatic cash flow distribution. This programmability meets various needs, from suppliers seeking financing liquidity to investors looking for diverse risk assets.
-
+                      Our solution utilizes the ERC-3525 standard to help both
+                      parties in a trade generate tokenized invoices after
+                      reaching an agreement. This process creates tokens
+                      representing accounts receivable and payable, embodying
+                      their respective rights. These tokens are programmable,
+                      allowing for splitting, combining, and structuring, as
+                      well as enabling automatic cash flow distribution. This
+                      programmability meets various needs, from suppliers
+                      seeking financing liquidity to investors looking for
+                      diverse risk assets.
                     </div>
-                    {/* <div className="flex flex-row gap-3">
-                      <Link
-                        href="https://forms.gle/fBfZchQnS7tjPncQ7"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                        }}
-                        target="_blank"
-                        className="btn-sm text-gray-100 bg-[#9453FF] hover:bg-[#7943cf] mt-2"
-                      >
-                        <span className="text-sm">Book Demo</span>
-                        <svg
-                          className="w-3 h-3 fill-current text-gray-100 shrink-0 ml-2 -mr-1"
-                          viewBox="0 0 12 12"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                            fillRule="nonzero"
-                          />
-                        </svg>
-                      </Link>
-                      <Link
-                        href="https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/pbm/pbm-technical-whitepaper.pdf"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                        }}
-                        target="_blank"
-                        className="btn-sm text-gray-900 bg-[#9553ff00] hover:text-[#7943cf] mt-2"
-                      >
-                        <span className="text-sm">Learn More</span>
-                        <svg
-                        className="w-3 h-3 fill-current text-gray-900 shrink-0 ml-2 -mr-1"
-                        viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                          fillRule="nonzero"
-                        />
-                      </svg>
-                      </Link>
-                    </div> */}
                   </div>
-                  {/* <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg
-                      className="w-3 h-3 fill-current"
-                      viewBox="0 0 12 12"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z"
-                        fill="#191919"
-                        fillRule="nonzero"
-                      />
-                    </svg>
-                  </div> */}
                 </a>
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
@@ -190,51 +111,21 @@ export default function CaseStudies() {
                       ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
                       : "bg-[#f0f0f0] border border-[#e1e1e1]"
                   }`}
-                  href="#0"
                   onMouseEnter={() => setTab(3)}
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                    Tokenised Trusted Credentials Management Platform
+                      Tokenised Trusted Credentials Management Platform
                     </div>
                     <div className="text-gray-600 text-sm">
-                    Our solution leverages the Universal Trusted Credential (UTC) and W3C VC/DID to create a trusted digital credential platform for managing and tokenising creditworthiness profiles. This platform ensures accessible, enhances affordable, and derisks financing for MSMEs by utilising standardised and verified data.
-
+                      Our solution leverages the Universal Trusted Credential
+                      (UTC) and W3C VC/DID to create a trusted digital
+                      credential platform for managing and tokenising
+                      creditworthiness profiles. This platform ensures
+                      accessible, enhances affordable, and derisks financing for
+                      MSMEs by utilising standardised and verified data.
                     </div>
-                    {/* <Link
-                      href="https://www.undp.org/sites/g/files/zskgke326/files/2023-11/white_paper_on_universal_trusted_credentials.pdf"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                      }}
-                      target="_blank"
-                      className="btn-sm text-gray-900 bg-[#9553ff00] hover:text-[#7943cf] mt-2"
-                    >
-                      <span className="text-sm">Learn More</span>
-                      <svg
-                        className="w-3 h-3 fill-current text-gray-900 shrink-0 ml-2 -mr-1"
-                        viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                          fillRule="nonzero"
-                        />
-                      </svg>
-                    </Link> */}
                   </div>
-                  {/* <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg
-                      className="w-3 h-3 fill-current"
-                      viewBox="0 0 12 12"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z"
-                        fill="#191919"
-                        fillRule="nonzero"
-                      />
-                    </svg>
-                  </div> */}
                 </a>
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
@@ -242,7 +133,6 @@ export default function CaseStudies() {
                       ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
                       : "bg-[#f0f0f0] border border-[#e1e1e1]"
                   }`}
-                  href="#0"
                   onMouseEnter={() => setTab(4)}
                 >
                   <div>
@@ -315,11 +205,11 @@ export default function CaseStudies() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <div className="relative flex md:mt-10">
+                    <div className="relative flex">
                       <Image
                         className="md:max-w-none mx-auto rounded"
                         src={PBM}
-                        width={600}
+                        width={530}
                         height={457}
                         alt="Features bg"
                       />
@@ -363,11 +253,11 @@ export default function CaseStudies() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <div className="relative flex md:mt-32">
+                    <div className="relative flex md:mt-12 md:ml-[-40px]">
                       <Image
                         className="md:max-w-none mx-auto rounded"
                         src={UTC}
-                        width={520}
+                        width={600}
                         height={457}
                         alt="Features bg"
                       />

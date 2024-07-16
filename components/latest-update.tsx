@@ -30,6 +30,7 @@ const LatestUpdated = () => {
           <div key={index} className="mb-4 last:mb-0">
             <div className="text-gray-500 text-sm">{post.date}</div>
             <a
+              target="_blank"
               href={post.url}
               className="text-xl font-semibold mt-2 hover:text-[#9453FF]"
             >

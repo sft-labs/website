@@ -52,7 +52,7 @@ export default function Testimonials() {
           </div>
 
           {/* Items */}
-          <div className="max-w-md md:max-w-4xl mx-auto flex justify-center gap-5 md:gap-16">
+          <div className="max-w-md md:max-w-4xl mx-auto flex justify-center gap-3 md:gap-12">
             {/* Item */}
             <a
               href="https://globalfintechinstitute.org/"

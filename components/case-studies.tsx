@@ -66,16 +66,15 @@ export default function CaseStudies() {
                       Programmable Payment
                     </div>
                     <div className="text-gray-600 text-sm">
-                      Our solutions revolutionise programmable digital
+                      Our solution revolutionises programmable digital
                       currencies and payments with the Purpose Bound Money (PBM)
                       protocol and ERC-3525 standard, automating secure
                       transactions and enhancing escrow for broader adoption,
                       ensuring funds are utilised as intended through
                       conditional payment setups. Its programmability allows
                       businesses and individuals to create programmable payment
-                      logic on their own without relying on professional third
-                      parties. Ample FinTech implemented the PBM3525 technology
-                      for broader use cases, including Letters of Credit.
+                      logic on their own without relying on third
+                      parties. The solution has broader use cases in global trade, including Letters of Credit.
                     </div>
                   </div>
                 </a>
@@ -92,7 +91,7 @@ export default function CaseStudies() {
                       Tokenised invoice
                     </div>
                     <div className="text-gray-600 text-sm">
-                      Our solution utilizes the ERC-3525 standard to help both
+                      Our solution utilises the ERC-3525 standard to help both
                       parties in a trade generate tokenized invoices after
                       reaching an agreement. This process creates tokens
                       representing accounts receivable and payable, embodying
@@ -118,7 +117,7 @@ export default function CaseStudies() {
                       Tokenised Trusted Credentials Management Platform
                     </div>
                     <div className="text-gray-600 text-sm">
-                      Our solution leverages the Universal Trusted Credential
+                      Our solution leverages the UNDP Universal Trusted Credential
                       (UTC) and W3C VC/DID to create a trusted digital
                       credential platform for managing and tokenising
                       creditworthiness profiles. This platform ensures

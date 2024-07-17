@@ -5,25 +5,25 @@ const events = [
     date: "2023 June",
     title: "Project Launched",
     description:
-      "Project launched and supported by Monetary Authority of Singapore (MAS) and Bank of Ghana (BOG)",
+      "The project is supported by MAS and BOG",
   },
   {
     date: "2023 November",
-    title: "Phase I",
+    title: "Phase I completed",
     description:
-      "Project DESFT Phase I accomplished; the advanced Trusted Digital Credential Network was showcased at the Singapore FinTech Festival (SFF 2023)",
+      "The Trusted Credential Network was showcased at the Singapore FinTech Festival (SFF)",
   },
   {
     date: "2024 MAY",
-    title: "Phase II",
+    title: "Phase II completed",
     description:
-      "Project DESFT Phase II accomplished;  the first cross-border trade pilot between Singapore stablecoin and Ghana’s central bank digital currency succeeded",
+      "A pilot cross-border trade using Singapore stablecoin and Ghana’s CBDC succeeded",
   },
   {
-    date: "",
-    title: "Move to Next Stage",
+    date: "2024 July",
+    title: "Phase III started",
     description:
-      "Project DESFT will explore the interoperability of multiple digital currencies within a single transaction, as well as the supply chain finance automation",
+      "The project will explore the interoperability among multiple digital currencies, as well as the supply chain finance automation",
   },
 ];
 
@@ -41,12 +41,10 @@ const Roadmap = () => {
           <p className="text-lg text-gray-600">
             Project DESFT (Digital Economy Semi-Fungible Token) is a central
             bank pilot initiative backed by the Monetary Authority of Singapore
-            (MAS) and the Bank of Ghana (BOG).Its goal is to empower small and
-            medium-sized enterprises (SMEs) to engage more effectively in
+            (MAS) and the Bank of Ghana (BOG). Its goal is to empower MSMEs to engage more effectively in
             international trade and cross-border payments. This is achieved
             through a trusted credential system and programmable payment
-            technology, fostering inclusive finance. The solution is designed
-            and developed by Ample FinTech.
+            technology, fostering inclusive finance. Project DESFT is conceptualised and led by Ample FinTech.
           </p>
         </div>
         {/* Central Line */}

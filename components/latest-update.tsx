@@ -5,17 +5,17 @@ const posts = [
   {
     date: "12 Jun 2024",
     title:
-      "PRESS RELEASE BANK OF GHANA ANNOUNCES SUCCESSFUL COMPLETION OF CROSS-BORDER TRADE USING DIGITAL CREDENTIALS",
+      "BOG Announces Successful Completion Of Cross-Border Trade Using Digital Credentials",
     description:
-      "Bank of Ghana (BoG) in collaboration with the Monetary Authority of Singapore (MAS) has successfully completed the first proof of concept (POC) under Project DESFT (Digital Economy Semi-Fungible Token) which demonstrated the use of digital credentials for international trade and cross-border payment.",
+      "BoG in collaboration with MAS has successfully completed the first POC under Project DESFT which demonstrated the use of digital credentials for international trade and cross-border payment.",
     url: "https://www.bog.gov.gh/wp-content/uploads/2024/06/PRESS-RELEASE-BANK-OF-GHANA-ANNOUNCES-SUCCESSFUL-COMPLETION-OF-CROSS-BORDER-TRADE-USING-DIGITAL-CREDENTIALS-120624.pdf",
   },
   {
     date: "17 May 2024",
     title:
-      "Ghana Completes First Proof of Concept in Project DESFT, Paving Way for Digital Cross-Border Trade",
+      "Ghana Completes First POC in Project DESFT, Paving Way for Digital Cross-Border Trade",
     description:
-      "The Central Bank of Ghana, in partnership with the Monetary Authority of Singapore, successfully completed the first proof of concept for Project DESFT, which aimed to enhance digital cross-border trade using the 'eCedi' and a Singaporean stablecoin. Announced by Kwame Oppong at the 3i Summit, this milestone marks a significant advancement in establishing a secure, digital trade environment between Ghana and Singapore, potentially transforming Ghana's payment ecosystem and supporting SMEs in international transactions.",
+      "BOG, in partnership with MAS, successfully completed the first POC for Project DESFT, which aimed to enhance digital cross-border trade using the 'eCedi' and a Singaporean stablecoin. Announced by Kwame Oppong at the 3i Summit, this milestone marks a significant advancement in establishing a secure, digital trade environment between Ghana and Singapore, potentially transforming Ghana's payment ecosystem and supporting MSMEs in international transactions.",
     url: "https://www.africa.com/ghana-completes-first-proof-of-concept-in-project-desft-paving-way-for-digital-cross-border-trade/",
   },
 ];

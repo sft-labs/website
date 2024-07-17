@@ -144,7 +144,7 @@ export default function Testimonials() {
                   Haisheng Zhang
                 </cite>
                 <div className="text-gray-600">
-                  <span>Co-Founder of Ample FinTech</span>
+                  <span>CPO of Ample FinTech</span>
                 </div>
                 <div className="mt-2">
                   <a

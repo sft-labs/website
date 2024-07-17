@@ -11,13 +11,13 @@ const events = [
     date: "2023 November",
     title: "Phase I",
     description:
-      "Project DESFT Phase I accomplished and was showcased at the Singapore FinTech Festival (SFF 2023)",
+      "Project DESFT Phase I accomplished, and the advanced Trusted Digital Credential Network was showcased at the Singapore FinTech Festival (SFF 2023)",
   },
   {
     date: "2024 MAY",
     title: "Phase II",
     description:
-      "Project DESFT Phase II accomplished;  the first cross-border trade pilot succeeded",
+      "Project DESFT Phase II accomplished;  the first cross-border trade pilot between Singapore stablecoin and Ghana’s central bank digital currency succeeded",
   },
   {
     date: "",

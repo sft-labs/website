@@ -11,7 +11,7 @@ const events = [
     date: "2023 November",
     title: "Phase I",
     description:
-      "Project DESFT Phase I accomplished, and the advanced Trusted Digital Credential Network was showcased at the Singapore FinTech Festival (SFF 2023)",
+      "Project DESFT Phase I accomplished; the advanced Trusted Digital Credential Network was showcased at the Singapore FinTech Festival (SFF 2023)",
   },
   {
     date: "2024 MAY",

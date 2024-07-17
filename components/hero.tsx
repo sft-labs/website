@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative h-[600px]">
+    <section className="relative h-[700px] md:h-[650px]">
       {/* Illustration behind hero content */}
       <div
         className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1"

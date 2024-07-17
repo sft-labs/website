@@ -50,7 +50,7 @@ const Roadmap = () => {
           </p>
         </div>
         {/* Central Line */}
-        <div className="absolute w-0.5 bg-black left-1/2 top-[420px] sm:top-[350px] md:top-[270px] bottom-0"></div>
+        <div className="absolute w-0.5 bg-black left-1/2 top-[470px] sm:top-[350px] md:top-[270px] bottom-0"></div>
 
         {/* Events */}
         {events.map((event, index) => (
